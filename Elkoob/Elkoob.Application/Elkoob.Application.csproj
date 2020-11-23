@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\Models\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Elkoob.Domain\Elkoob.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
